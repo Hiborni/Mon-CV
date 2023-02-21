@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+body {
+    background: grey url(9.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    width: 32%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 4px 10px;
+    height: 100px;
+    background: cornflowerblue;
+    background: linear-gradient(cornflowerblue, orange);
+    border-radius: 18%;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0% 0% 0% 0%;
+    padding: 40px;
+    color: green;
+    font-size: 160%;
+}
+
+nav {
+    width: 42%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 4px 10px;
+    height: 60px;
+    background-color: cornflowerblue;
+    background: linear-gradient(cornflowerblue, orange);
+    border-radius: 18%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li a {
+    margin: 0px 40px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+label,
+#toggle {
+    display: none;
+}
+
+@media all and (max-width: 991px) {
+    nav {
+        height: 60px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: cornflowerblue;
+        background: linear-gradient(cornflowerblue, orange);
+        border-radius: 10%;
+        height: 220px;
+    }
+
+    nav label {
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: green;
+        cursor: pointer;
+    }
+
+    nav label:hover {
+        color: gold;
+        text-decoration: none;
+        transition: 0.8s;
+    }
+
+    #toggle:checked+ul {
+        display: flex;
+    }
+}
+
+
+.ImageHG {
+    margin: auto;
+    float: left;
+}
+
+.ImageHG img {
+    margin-top: 6%;
+    margin-left: 4%;
+    width: 40%;
+    border-radius: 6%;
+    padding: auto;
+}
+
+.texteHD {
+    color: seagreen;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2%;
+}
+
+.texteHD p {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
