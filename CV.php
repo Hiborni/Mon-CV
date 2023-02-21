@@ -32,7 +32,7 @@
     </nav>
 
     <div class="ImageHG">
-        <img src="php.jpg" alt="php" title="Développer PHP">
+        <img src="Image/php.jpg" alt="php" title="Développer PHP">
     </div>
 
     <section class="texteHD">

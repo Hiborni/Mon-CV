@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background: grey url(9.jpg) no-repeat;
+    background: grey url(Image/1.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
