@@ -16,31 +16,30 @@
     <nav>
         <label for="toggle"> ☰ </label>
         <input type="checkbox" id="toggle">
-            <ul>
-                <li>
-                    <a href="CV.php" title="Accueil">Accueil</a>
-                </li>
+        <ul>
+            <li>
+                <a href="CV.php" title="Accueil">Accueil</a>
+            </li>
 
-                <li>
-                    <a href="https://me-qr.com/fr/mobile/pdf/12118832" title="Mon curriculum vitae en pdf">Mon curriculum vitae en PDF</a>
-                </li>
+            <li>
+                <a href="https://me-qr.com/fr/mobile/pdf/12118832" title="Mon curriculum vitae en pdf">Mon curriculum vitae en PDF</a>
+            </li>
 
-                <li>
-                    <a href="#" title="Me contacter">Me contacter</a>
-                </li>
-            </ul>
+            <li>
+                <a href="#" title="Me contacter">Me contacter</a>
+            </li>
+        </ul>
     </nav>
 
     <div class="ImageHG">
-        <img src="Image/php.jpg" alt="php" title="Développer PHP">
+        <section class="texteHD">
+        <img src="Image/php.jpg" alt="php" title="Développer PHP" class="ImageHG">
+            <p>
+                Je suis un Développer PHP qui aime crée, inover et apprendre de nouvelle chose chaque jour <br>
+                j'aime decouvrir de nouvelle technologie surtout qu'elle evolue vite
+            </p>
+        </section>
     </div>
-
-    <section class="texteHD">
-        <p>
-            Je suis un Développer PHP qui aime crée, inover et apprendre de nouvelle chose chaque jour <br>
-            j'aime decouvrir de nouvelle technologie surtout qu'elle evolue vite
-        </p>
-    </section>
 
 </body>
 

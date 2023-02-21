@@ -102,13 +102,11 @@ label,
 }
 
 
+
 .ImageHG {
     margin: auto;
     float: left;
-}
-
-.ImageHG img {
-    margin-top: 6%;
+    margin-top: 5%;
     margin-left: 4%;
     width: 40%;
     border-radius: 6%;
@@ -118,12 +116,11 @@ label,
 .texteHD {
     color: seagreen;
     display: flex;
-    flex-direction: row-reverse;
-    margin-top: 2%;
+    flex-direction: row;
 }
 
 .texteHD p {
-    width: 80%;
-    height: 200px;
+    margin-top: 6%;
+    margin-left: 2%;
     background-color: rgb(255, 255, 255);
 }
