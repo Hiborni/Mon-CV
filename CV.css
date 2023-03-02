@@ -20,7 +20,7 @@ header {
 header h1 {
     text-align: center;
     margin: 0% 0% 0% 0%;
-    padding: 40px;
+    padding: 20px;
     color: green;
     font-size: 160%;
 }
@@ -33,7 +33,7 @@ nav {
     height: 60px;
     background-color: cornflowerblue;
     background: linear-gradient(cornflowerblue, orange);
-    border-radius: 18%;
+    border-radius: 16%;
 }
 
 nav ul {
@@ -98,16 +98,17 @@ label,
 
     #toggle:checked+ul {
         display: flex;
+        position: relative;
     }
 }
 
 
 
 .ImageHG {
-    margin: auto;
-    float: left;
     margin-top: 5%;
-    margin-left: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
     width: 40%;
     border-radius: 6%;
     padding: auto;
